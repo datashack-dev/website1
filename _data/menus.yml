@@ -1,0 +1,42 @@
+# Top Menu
+topmenu:
+
+- title: Home
+  url: ""
+
+- title: Services
+  url: "about/"
+  sublinks:
+    - title: FAQ
+      url: /faq.html
+    - title: Documentation
+      url: /documentation.html
+    - title: separator
+    - title: Customer Support
+      url: /customer-support.html
+
+- title: Use cases
+  url: "about/"
+
+- title: Contact
+  url: "contact/"
+
+- title: Join Beta  
+  url: "contact/"
+  class: "ml-2 btn btn-dark text-white px-3"
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Privacy Policy
+  url: "privacy-policy/"
+
+- title: Contact
+  url: "contact/"
+
+- title: Download
+  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+  external: true

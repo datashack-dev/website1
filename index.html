@@ -1,0 +1,144 @@
+---
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
+---
+
+<!-- Home Intro
+================================================== -->
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Big Data Compute,</h1>
+      <h1 class="font-weight-bold mb-4 serif-font">Done right.</h1>
+      <p class="lead mb-4">
+        {{ site.description }}
+      </p>
+      <!-- <a href="{{site.baseurl}}/about" class="btn btn-primary text-white px-5 btn-lg">See it in Action!</a> -->
+    </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
+    </div>
+  </div>
+</div>
+<section class="row">
+  <div class="col-md-12 mb-12 container">
+    
+    <h2 class=" mb-4  text-center">See it in Action!</h2>
+    <div class="embed-responsive embed-responsive-16by9 px-5">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/gxgG9briNaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="">
+  <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="py-12 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="lg:text-center">
+    <h2 class="font-heading mb-4 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-black uppercase title-font">
+      Why choose us?
+    </h2>
+    <p class="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
+      We know tech, we know finance. We are fintech experts.
+    </p>
+    <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
+     We know how to handle taxation for all the countried we operate in. We care for our customers and help them manage cashflows.
+    </p>
+  </div>
+
+  <div class="mt-10">
+    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-code text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful API</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+              <i class="ph-file-js text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Easy to integrate SDK</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-money text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Low Transaction Cost</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-shield-check text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful Dashboard</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
+          </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</section>
