@@ -2,7 +2,7 @@ title: "Datashack"
 description: "Ultimate Development Cycle for Data savvy teams. Get it working today - Easy Setup, End-to-end, Production ready."
 email: contact@datashack.dev
 timezone: UTC
-baseurl: ""
+baseurl: "/website1"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
