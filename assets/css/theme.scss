@@ -114,8 +114,10 @@ small, .small {
 }
 .navigation-wrap {	
 	width: 100%;
-	top: 0;
-	left: 0;
+    top: 0;
+    left: 0;
+	padding-left: 15px;
+    padding-right: 15px;
 	z-index: 9999;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
@@ -625,4 +627,8 @@ span.navigation:before {
 
 .menu-logo {
     height: 28px;
+}
+
+.main_notebook{
+    width: 30vw;
 }

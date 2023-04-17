@@ -15,10 +15,14 @@ background: '/img/bg-index.jpg'
       <h2 class="mb-4 bg-primary-100 text-primary-800 px-4 py-2 rounded-lg md:w-84 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
         {{ site.description }}
       </h2>
+
+      <div class="container flex flex-col px-5 py-8 mx-auto md:items-center md:max-w-xl sm:w-full">
+        <img class="w-full" src="{{ site.baseurl }}/assets/images/main.png"/>
+      </div>
       
-      <a href="#",
-        class="flex text-center w-full mt-6 md:mx-auto md:justify-center md:w-48 items-center px-6 py-2 font-semibold text-white transition duration-500 ease-in-out transform bg-primary-500 rounded-lg hover:bg-primary-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" >
-        Get Started
+      <a href="#contact",
+        class="flex text-center w-full mt-6 md:mx-auto md:justify-center md:w-64 items-center px-6 py-2 font-semibold text-white transition duration-500 ease-in-out transform bg-primary-500 rounded-lg hover:bg-primary-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" >
+        Get Early Access
         <i class="ml-2 text-lg ph-caret-double-right-bold"></i>
       </a>
     </div>
@@ -26,22 +30,27 @@ background: '/img/bg-index.jpg'
 </section>
 
 <section>
-  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-  <div class="mt-10">
-    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+  <div class="mt-8 py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+    <div class="mb-8 lg:mb-16 text-center">
+        <!-- <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">The Ultimate Data Platform</h2> -->
+        <p class="text-gray-500 sm:text-xl dark:text-gray-400">Find out what features Datashack provides that will change your every day reality </p>
+    </div>
+  
+  <div class="mt-5">
+    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-6 md:gap-y-10">
       <div class="relative">
         <dt>
           <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
             <i class="ph-code text-3xl"></i>
           </div>
-          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Notebooks rule!</p>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Native Notebooking.</p>
         </dt>
         <dd class="mt-2 ml-16 text-base text-gray-500">
           Write native Python notebook with your familiar setup.
         </dd>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
+        <dd class="mt-6 ml-16 text-base text-gray-500 text-center">
           
-          <img class="lazyimg" src="{{ site.baseurl }}/assets/images/notebook_1.png"/>
+          <img class="lg:object-contain lg:w-64 sm:w-full" src="{{ site.baseurl }}/assets/images/notebook_1.png"/>
         
         </dd>
       </div>
@@ -49,21 +58,38 @@ background: '/img/bg-index.jpg'
       <div class="relative">
         <dt>
           <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-            <i class="ph-code text-3xl"></i>
+            <i class="ph-rocket text-3xl"></i>
           </div>
           <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Execute anywhere.</p>
         </dt>
         <dd class="mt-2 ml-16 text-base text-gray-500">
           Completely serverless, managed, never leave the notebook.
         </dd>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
+        <dd class="mt-6 ml-16 text-base text-gray-500 text-center">
           
-          <img class="lazyimg" src="{{ site.baseurl }}/assets/images/notebook_2.png"/>
+          <img class="lg:object-contain lg:w-64 sm:w-full" src="{{ site.baseurl }}/assets/images/notebook_2.png"/>
+        
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-chart-bar text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Communicate the Data.</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Dashboards, Monitoring and Documentation easily
+        </dd>
+        <dd class="mt-6 ml-16 text-base text-gray-500 text-center">
+          
+          <img class="lg:object-contain lg:w-64 sm:w-full" src="{{ site.baseurl }}/assets/images/notebook_3.png"/>
         
         </dd>
       </div>
     </dl>
-  </div>
+  
 </div>
 </section>
   
@@ -83,46 +109,118 @@ background: '/img/bg-index.jpg'
 
 
 
+
+<section class="">
+  <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="py-12 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="lg:text-center">
+    
+    <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Benefits</h2>
+
+    <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
+     Find out what you can benefit from using Datashack services
+    </p>
+  </div>
+
+  <div class="mt-10">
+    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-radio-button text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful Features</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Discover the efficient and effective data processing capabilities of Datashack services.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+              <i class="ph-credit-card text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Cost Reduction</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Save on expenses with cost-effective data solutions offered by Datashack services.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-coin text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Low TCO</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Benefit from a low total cost of ownership with the affordable data management solutions of Datashack.
+        </dd>
+      </div>
+
+      <div class="relative">
+        <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+            <i class="ph-smiley text-3xl"></i>
+          </div>
+          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Super Easy</p>
+        </dt>
+        <dd class="mt-2 ml-16 text-base text-gray-500">
+          Experience seamless and user-friendly data handling with the simple-to-use features of Datashack services.
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
 <section class="bg-gray-50 dark:bg-gray-800">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-      <div class="mb-8 max-w-screen-md lg:mb-16">
-          <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-          <p class="text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+      <div class="mb-8 lg:mb-16 text-center">
+          <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Designed for your team</h2>
+          <p class="text-gray-500 sm:text-xl dark:text-gray-400">We designed the perfect Data Platform! So it's reachable for any personel in your team. </p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Engineers</h3>
               <p class="text-gray-500 dark:text-gray-400">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Product Managers</h3>
               <p class="text-gray-500 dark:text-gray-400">Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>                    
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Analysts</h3>
               <p class="text-gray-500 dark:text-gray-400">Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path></svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Customer Support</h3>
               <p class="text-gray-500 dark:text-gray-400">Audit-proof software built for critical financial operations like month-end close and quarterly budgeting.</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Management</h3>
               <p class="text-gray-500 dark:text-gray-400">Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.</p>
           </div>
           <div>
@@ -136,87 +234,30 @@ background: '/img/bg-index.jpg'
   </div>
 </section>
 
-<!-- <section class="row">
-  <div class="col-md-12 mb-12 container">
-    
-    <h2 class=" mb-4  text-center">See it in Action!</h2>
-    <div class="embed-responsive embed-responsive-16by9 px-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/gxgG9briNaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+
+
+
+<section class="bg-white dark:bg-gray-900" id="contact">
+  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">contact@datashack.dev</p>
+      <form action="#" class="space-y-8">
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+          </div>
+          <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+          </div>
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="flex text-center w-full mt-6 md:mx-auto md:justify-center md:w-48 items-center px-6 py-2 font-semibold text-white transition duration-500 ease-in-out transform bg-primary-500 rounded-lg hover:bg-primary-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Send <i class="ml-2 text-lg ph-caret-double-right-bold"></i></button>
+          
+        
+      </a>
+      </form>
   </div>
-</section> -->
-
-<section class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8"> <div class="max-w-screen-xl mx-auto p-8"> <div class="lg:text-center"> <h2 class="font-heading mb-4 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg md:w-36 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">FAQs</h2> <h3 class="text-3xl font-extrabold leading-9 text-gray-900 mb-12"> Frequently Asked Questions </h3> </div> <div class="flex items-start flex-wrap mx-auto"> <div class="p-4 md:w-1/2 w-full"> <p class="text-lg font-medium leading-6 text-gray-900"> What is a home energy rating? </p> <p class="mt-2"> </p><p class="text-base leading-6 text-gray-500"> A home energy rating is an estimated calculation into a homes potential energy usage, which will determine the amount of heating and cooling required to make its occupants comfortable. It produces a star rating dependant on the amount of heating and cooling loads which will be required, from 0 to 10 stars. </p> <p></p> </div> <div class="p-4 md:w-1/2 w-full"> <p class="text-lg font-medium leading-6 text-gray-900"> Why do I need a 6 Star energy rating? </p> <p class="mt-2"> </p><p class="text-base leading-6 text-gray-500"> In most Australian states the government requires that all new homes and apartments (along with certain types of building extensions) built since 2010 be energy rated and achieve a minimum of 6 Stars. </p> <p></p> </div> <div class="p-4 md:w-1/2 w-full"> <p class="text-lg font-medium leading-6 text-gray-900"> What is the general cost of an energy rating? </p> <p class="mt-2"> </p><p class="text-base leading-6 text-gray-500"> Simple energy rating prices vary greatly on the size and type of building, generally an energy rating will cost somewhere between $130 to $700+. </p> <p></p> </div> <div class="p-4 md:w-1/2 w-full"> <p class="text-lg font-medium leading-6 text-gray-900"> What information do I need to supply for an energy rating to be completed?? </p> <p class="mt-2"> </p><p class="text-base leading-6 text-gray-500"> The information required to complete a full and comprehensive energy report are the following final working drawings: Site Plan, Floor Plan, Elevations, Sections, Lighting layout and window schedule (including sizes of the existing windows). </p> <p></p> </div> </div> </div> </section>
-
-<section class="">
-  <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="py-12 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-  <div class="lg:text-center">
-    <h2 class="font-heading mb-4 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-black uppercase title-font">
-      Why choose us?
-    </h2>
-    <p class="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
-      We know tech, we know finance. We are fintech experts.
-    </p>
-    <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
-     We know how to handle taxation for all the countried we operate in. We care for our customers and help them manage cashflows.
-    </p>
-  </div>
-
-  <div class="mt-10">
-    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-      <div class="relative">
-        <dt>
-          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-            <i class="ph-code text-3xl"></i>
-          </div>
-          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful API</p>
-        </dt>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-        </dd>
-      </div>
-
-      <div class="relative">
-        <dt>
-          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-              <i class="ph-file-js text-3xl"></i>
-          </div>
-          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Easy to integrate SDK</p>
-        </dt>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-        </dd>
-      </div>
-
-      <div class="relative">
-        <dt>
-          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-            <i class="ph-money text-3xl"></i>
-          </div>
-          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Low Transaction Cost</p>
-        </dt>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-        </dd>
-      </div>
-
-      <div class="relative">
-        <dt>
-          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-            <i class="ph-shield-check text-3xl"></i>
-          </div>
-          <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful Dashboard</p>
-        </dt>
-        <dd class="mt-2 ml-16 text-base text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-        </dd>
-      </div>
-    </dl>
-  </div>
-</div>
-</div>
 </section>
-
-

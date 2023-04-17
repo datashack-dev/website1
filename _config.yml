@@ -1,6 +1,6 @@
 title: "Datashack"
-tagline: "The Serverless Data Platform"
-description: "Explore, Build and Deploy Data products with ease"
+tagline: "The Notebook Operating System"
+description: "Do all Data operations from one place"
 email: contact@datashack.dev
 timezone: UTC
 baseurl: "/website1"
@@ -22,7 +22,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-1111111-1
+ganalytics: G-L3LPF7467G
 
 # Authors
 authors:
