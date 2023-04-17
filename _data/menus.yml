@@ -28,15 +28,8 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: Home
-  url: ""
-
-- title: Privacy Policy
-  url: "privacy-policy/"
+- title: Top
+  url: "/#"
 
 - title: Contact
-  url: "contact/"
-
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+  url: "/#contact"
