@@ -3,7 +3,7 @@ tagline: "The Notebook Operating System"
 description: "Do all Data operations from one place"
 email: contact@datashack.dev
 timezone: UTC
-baseurl: "/website1"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
